@@ -1,0 +1,154 @@
+@import url(reset.css);
+@import url(https://fonts.googleapis.com/css?family=Inter:regular&display=swap);
+/*================================================================================================================================*/
+body {
+    font-family: "Inter";
+    font-weight: 400;
+    color: #151515;
+}
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: clip;
+}
+[class*="__container"] {
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+/*header start*/
+.header {
+    background: url(/img/header/header__background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+}
+.header__container {
+    padding: 40px 15px;
+}
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.header__top:not(:last-child) {
+    margin-bottom: 152px;
+}
+.header__logo {
+}
+/* .header__logo img {
+    max-width: 100%;
+} */
+.header__menu {
+    align-self: flex-end;
+}
+.menu-header {
+}
+.menu-header__list {
+}
+.menu-header__items {
+    display: flex;
+    gap: 35px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+}
+.menu-header__item {
+}
+.menu-header__link {
+}
+.menu-header__link:hover {
+    text-decoration: underline;
+}
+.header__bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header-bottom__title {
+    color: #fff;
+    font-size: 96px;
+    font-weight: 700;
+}
+.header-bottom__title:not(:last-child) {
+    margin-bottom: 38px;
+}
+.header-bottom__button {
+    display: flex;
+    justify-content: center;
+    background-color: #151515;
+    max-width: 430px;
+    padding: 23px 100px;
+    transition: all 0.3s ease 0s;
+}
+.header-bottom__button:hover {
+    background-color: #5e5c5c;
+}
+.header-bottom__link {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 700;
+}
+@media (max-width: 991.98px) {
+    .header__top:not(:last-child) {
+        margin-bottom: 100px;
+    }
+    .menu-header__items {
+        gap: 30px;
+        font-size: 14px;
+    }
+    .header-bottom__title {
+        font-size: 66px;
+    }
+    .header-bottom__button {
+        padding: 20px 90px;
+    }
+    .header-bottom__link {
+        font-size: 26px;
+    }
+}
+@media (max-width:767.98px) {
+    .header__top:not(:last-child) {
+        margin-bottom: 50px;
+    }
+    .header__top {
+        flex-direction: column;
+    }
+    .header__menu {
+        align-self: center;
+    }
+    .header__logo img {
+        width: 73px;
+    }
+    .menu-header__items {
+        flex-wrap: wrap;
+        gap: 25px;
+        font-size: 12px;
+    }
+    .header-bottom__title {
+        font-size: 56px;
+    }
+    .header-bottom__button {
+        padding: 16px 70px;
+    }
+    .header-bottom__link {
+        font-size: 20px;
+    }
+}
+@media (max-width: 476.98px) {
+    .header__top:not(:last-child) {
+        margin-bottom: 30px;
+    }
+    .header-bottom__title {
+        font-size: 46px;
+    }
+    .header-bottom__button {
+        padding: 12px 50px;
+    }
+    .header-bottom__link {
+        font-size: 16px;
+    }
+}
+/*header end*/
