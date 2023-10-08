@@ -26,6 +26,7 @@
     display: flex;
     justify-content: space-between;
     gap: 10px;
+    align-items: center;
 }
 .item-flex__text {
     color: #151515;
@@ -84,5 +85,10 @@
     .button {
         margin: 0 auto;
         max-width: 223px;
+    }
+}
+@media (max-width: 540px) {
+    .item-flex__text {
+        font-size: 20px;
     }
 }
