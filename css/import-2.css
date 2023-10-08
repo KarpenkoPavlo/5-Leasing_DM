@@ -1,0 +1,8 @@
+@import url(reset.css);
+@import url(https://fonts.googleapis.com/css?family=Inter:regular&display=swap);
+/*index*/
+@import url(header-choose.css);
+@import url(choose-2.css);
+@import url(cars-2.css);
+@import url(twoimage.css);
+@import url(footer.css);
