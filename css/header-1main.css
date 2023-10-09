@@ -45,7 +45,7 @@
 .menu-header__link {
 }
 .menu-header__link:hover {
-    color: #06F;
+    color: #000;
     transition: all 0.3s ease 0s;
 }
 .menu-header__link:not(:hover) {
@@ -70,14 +70,12 @@
     justify-content: center;
     max-width: 430px;
     padding: 23px 100px;
-    transition: all 0.3s ease 0s;
     background-color: #151515;
 }
 .header-bottom__button:hover {
-    border-radius: 15px;
-
-    background-color: #959396;
-    transform: scale(0.9);
+    border-radius: 30px 10px 30px 10px;
+    transition: all 0.3s ease 0s;
+    transform: scale(1.1);
 }
 .header-bottom__button:not(:hover) {
     transition: all 0.5s ease 0s;
