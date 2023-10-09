@@ -35,6 +35,18 @@
   font-weight: 700;
 }
 
+.menu-header__item:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.menu-header__item:not(:hover) {
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+
 .menu-header__link:hover {
   color: #06F;
   -webkit-transition: all 0.3s ease 0s;
@@ -44,6 +56,63 @@
 .menu-header__link:not(:hover) {
   -webkit-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
+}
+
+.header__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-bottom__title {
+  color: #8a8787;
+  font-size: 96px;
+  font-weight: 700;
+}
+
+.header-bottom__title:not(:last-child) {
+  margin-bottom: 38px;
+}
+
+.header-bottom__button {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  max-width: 430px;
+  padding: 23px 100px;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  background-color: #151515;
+}
+
+.header-bottom__button:hover {
+  border-radius: 15px;
+  background-color: #959396;
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+}
+
+.header-bottom__button:not(:hover) {
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+
+.header-bottom__link {
+  color: #fff;
+  font-family: "Inter";
+  font-size: 36px;
+  font-weight: 700;
 }
 
 @media (max-width: 991.98px) {
