@@ -52,6 +52,19 @@
     align-items: center;
     column-gap: 140px;
 }
+.elipse {
+    position: relative;
+}
+.elipse h1 {
+    color: #fff;
+    font-family: "Inter";
+    font-size: 48px;
+    font-weight: 700;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+}
 .how-main__text {
     color: #151515;
     font-size: 16px;

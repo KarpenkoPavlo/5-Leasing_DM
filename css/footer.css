@@ -39,10 +39,21 @@
     line-height: 1.3; /* 20.8px */
 }
 .footer__link:hover {
-    text-decoration: underline;
+    transform: scale(1.1);
+    transition: all 0.3s ease 0s;
+}
+.footer__link:not(:hover) {
+    transition: all 0.5s ease 0s;
 }
 .footer__download {
     text-align: center;
+}
+.download-hover img:hover {
+    transform: scale(1.1);
+    transition: all 0.3s ease 0s;
+}
+.download-hover img:not(:hover) {
+    transition: all 0.5s ease 0s;
 }
 .footer__download:not(:last-child) {
     margin-bottom: 50px;
@@ -72,17 +83,22 @@
     line-height: 1.3; /* 20.8px */
 }
 .footer-info__link:hover {
-    text-decoration: underline;
+    transform: scale(1.1);
+    transition: all 0.3s ease 0s;
+}
+.footer-info__link:not(:hover) {
+    transition: all 0.5s ease 0s;
 }
 @media (max-width: 991.98px) {
+    .footer__items {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 100px;
+        text-align: center;
+    }
 }
 @media (max-width: 767.98px) {
     .footer__items {
-        row-gap: 50px;
-        display: grid;
-        text-align: center;
-        grid-template-columns: auto;
-        justify-content: center;
     }
     .footer-info__items {
         flex-direction: column;
@@ -97,7 +113,8 @@
         margin-bottom: 20px;
     }
     .footer__items {
-        justify-content: center;
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 50px;
     }
     .download__text {
         text-align: left;

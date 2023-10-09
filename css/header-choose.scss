@@ -34,6 +34,10 @@
 }
 .menu-header__link:hover {
     color: #06F;
+    transition: all 0.3s ease 0s;
+}
+.menu-header__link:not(:hover) {
+    transition: all 0.5s ease 0s;
 }
 @media (max-width: 991.98px) {
     .header__top:not(:last-child) {

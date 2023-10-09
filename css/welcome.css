@@ -22,6 +22,9 @@
 }
 .welcome__video {
 }
+.welcome__video iframe {
+    max-width: 100%;
+}
 @media (max-width: 991px) {
     .welcome {
         padding-top: 100px;
@@ -35,10 +38,6 @@
     .welcome__text {
         font-size: 20px;
     }
-    .welcome__video iframe {
-        width: 600px;
-        height: 300px;
-    }
 }
 @media (max-width: 767.98px) {
     .welcome {
@@ -51,26 +50,22 @@
     .welcome__text:not(:last-child) {
         margin-bottom: 25px;
     }
-    .welcome__video iframe {
-        width: 500px;
-        height: 270px;
-    }
 }
-@media (max-width: 540px) {
+@media (max-width: 550px) {
     .welcome__video iframe {
-        width: 450px;
-        height: 250px;
+        height: 300px;
     }
 }
 @media (max-width: 479.98px) {
     .welcome {
         padding-top: 60px;
     }
-    .welcome__video iframe {
-        width: 300px;
-        height: 210px;
-    }
     .welcome__title {
         font-size: 30px;
+    }
+}
+@media (max-width: 320px) {
+    .welcome__video iframe {
+        height: 200px;
     }
 }

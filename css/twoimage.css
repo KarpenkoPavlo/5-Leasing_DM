@@ -68,8 +68,8 @@
 
 .item-flex__button:hover {
   cursor: pointer;
-  -webkit-transform: scale(0.9);
-          transform: scale(0.9);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }

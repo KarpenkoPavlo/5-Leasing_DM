@@ -37,6 +37,13 @@
 
 .menu-header__link:hover {
   color: #06F;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.menu-header__link:not(:hover) {
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
 }
 
 @media (max-width: 991.98px) {

@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:regular700&display=wrap);
 /*default*/
 body {
     font-family: "Inter";
@@ -30,4 +31,7 @@ body {
 .page__cars {
 }
 .page__twoimage {
+}
+/*index3*/
+.page__contact {
 }
