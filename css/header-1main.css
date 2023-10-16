@@ -1,6 +1,5 @@
 .header {
     position: relative;
-    /* background: url(/img/header/header__background.jpg) no-repeat; */
     background-size: cover;
     background-position: center;
     max-width: 100%;
@@ -27,7 +26,6 @@
 .header__menu {
     display: flex;
     justify-content: end;
-
     width: 1110px;
 }
 .menu-header {
@@ -126,6 +124,9 @@
     .header-bottom__link {
         font-size: 26px;
     }
+    .header__bottom {
+        padding-top: 160px;
+    }
 }
 @media (max-width:767.98px) {
     .header-bottom__title {
@@ -148,6 +149,9 @@
         gap: 25px;
         font-size: 12px;
     }
+    .header__bottom {
+        padding-top: 150px;
+    }
 }
 @media (max-width: 476.98px) {
     .header__top:not(:last-child) {
@@ -161,12 +165,6 @@
     }
     .header-bottom__link {
         font-size: 16px;
-    }
-    .header__top {
-        flex-direction: column;
-    }
-    .header__menu {
-        align-self: center;
     }
 }
 /*slider*/
@@ -182,8 +180,6 @@
 .swiper-wrapper {
 }
 .swiper-slide {
-    /* background-size: cover;
-    background-position: center; */
     max-width: 100%;
     height: 100vh;
 }

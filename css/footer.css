@@ -122,4 +122,7 @@
     .footer__menu:not(:last-child) {
         margin-bottom: 30px;
     }
+    .footer__bottom {
+        margin: 0px -50px 0px -50px;
+    }
 }

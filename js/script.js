@@ -23,8 +23,8 @@ const swiper = new Swiper(".swiper", {
     pagination: {
       el: ".swiper-pagination",
     },
-    // autoplay: {
-    //     delay: 2500,
-    //     disableOneInternaction: false;
-    // }
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
   });
