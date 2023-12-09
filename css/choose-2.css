@@ -33,6 +33,7 @@
   font-family: "Inter";
   font-size: 24px;
   font-weight: 700;
+  cursor: pointer;
 }
 
 .menu__item:hover {
@@ -52,7 +53,7 @@
   .menu__items {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[2];
+    -ms-grid-columns: (1fr)(2);
     grid-template-columns: repeat(2, 1fr);
     row-gap: 30px;
   }
@@ -62,7 +63,7 @@
     font-size: 35px;
   }
   .menu__items {
-    -ms-grid-columns: (1fr)[1];
+    -ms-grid-columns: (1fr)(1);
     grid-template-columns: repeat(1, 1fr);
   }
 }

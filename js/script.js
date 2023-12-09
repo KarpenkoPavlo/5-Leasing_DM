@@ -28,3 +28,19 @@ const swiper = new Swiper(".swiper", {
       disableOnInteraction: false,
     },
   });
+
+// forms
+function contact() {
+  let userName = document.querySelector('.form1').value;
+  let userEmail = document.querySelector('.form2').value;
+  let userText = document.querySelector('.form3').value;
+
+  if(userName && userEmail && userText) {
+    alert('Thanks for the information provided)');
+    document.querySelector('.form1').value = '';
+    document.querySelector('.form2').value = '';
+    document.querySelector('.form3').value = '';
+  } else {
+    alert('Some forms were left blank(');
+  }
+}
